@@ -1,0 +1,25 @@
+/**Style for the second exercise: classes and ID's**/
+
+body {
+	font-size: 20px;
+}
+
+.odd {
+	background-color: rgb(255, 221, 202);
+	font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+.odd.big_odd {
+	font-size: 1.2em;
+}
+
+#blue {
+	font-size: 36px;
+	color: rgb(106, 99, 255)
+}
+
+#green{
+	background-color: rgb(175, 255, 109);
+	font-size: 24px;
+	font-weight: bold;
+}
