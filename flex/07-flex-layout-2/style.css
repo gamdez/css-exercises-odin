@@ -2,28 +2,78 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  border: solid;
+  
 }
 
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
 }
 
 .footer {
-  height: 72px;
+  display: flex;
+  flex-basis: 72px;
+  justify-content: center;
+  align-items: center;
   background: #eee;
   color: darkmagenta;
+
+  /*Mod by me
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center*/
+}
+
+/*Mod by me*/
+.container{
+  display: flex;
+  flex-grow: 1; /*This was a headache, glad I understood it's use*/
 }
 
 .sidebar {
-  width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  display: flex;
+  flex-basis: 250px;
+  flex-shrink: 0;
+  font-weight: 700;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 300px;
+  height: 200px;
+  margin:15px;
+  padding: 15px;
 }
+
+.cuadros{
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.enlace{
+  text-decoration: none;
+  color:#eee
+}
+
+li{
+  list-style-type: none;
+}
+
+
